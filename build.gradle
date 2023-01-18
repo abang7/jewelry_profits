@@ -25,6 +25,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     testCompile("org.springframework.boot:spring-boot-starter-test")
 //    implementation('org.springframework.boot:spring-boot-starter-log4j2:1.5.7.RELEASE')
     implementation('org.projectlombok:lombok:1.18.8')

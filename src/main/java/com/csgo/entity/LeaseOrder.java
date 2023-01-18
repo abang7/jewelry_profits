@@ -13,7 +13,4 @@ public class LeaseOrder {
     Long Id;
     Date leaseTime;
     Double rent;
-    @OneToOne(cascade = CascadeType.MERGE)
-    @JoinColumn(name = "Item_id")
-    Item item;
 }
